@@ -1,0 +1,7 @@
+-
+    name: 登录
+    request:
+        method: post
+        url: http://localhost/base/login
+        data: {"username": "admin", "password": "123456"}
+    validata: None

@@ -1,1 +1,6 @@
 /env/
+/temp/
+/report/
+/.idea
+/.pytest_cache
+/.git
