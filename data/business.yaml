@@ -1,0 +1,24 @@
+- baseInfo:
+    api_name: 登录接口
+    method: post
+    url: /base/login
+  caseInfo:
+    - case_name: 登录成功
+      json: {"username": "admin", "password": '${get_password()}'}
+      validata: 
+        - code: 200
+        - contain: {'msg':'登录成功~'}
+        - eq: {'code':200}
+      extract: 
+          token: $.token
+- baseInfo:
+    api_name: 个人中心
+    method: get
+    url: /base/system/user/profile
+  caseInfo:
+    - case_name: 获取个人中心信息
+      validata: 
+        - code: 200
+        - contain: {'msg':'操作成功'}
+        - eq: {'code':200}
+

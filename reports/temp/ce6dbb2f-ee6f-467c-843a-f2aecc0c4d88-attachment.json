@@ -1,0 +1,87 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "address": null,
+            "children": [
+                {
+                    "address": null,
+                    "children": [],
+                    "code": null,
+                    "createTime": "2022-05-22 09:59:33",
+                    "deptId": "5477d9a9-e41e-485f-bb08-697e8facef88",
+                    "deptName": "南京分公司",
+                    "email": "ss@ada.com",
+                    "iconCls": null,
+                    "leader": "dd",
+                    "orderNum": 1,
+                    "parentId": "0",
+                    "phone": "18905189016",
+                    "status": "0",
+                    "updateTime": "2023-05-16 19:52:10"
+                },
+                {
+                    "address": null,
+                    "children": [],
+                    "code": null,
+                    "createTime": "2022-05-24 23:54:10",
+                    "deptId": "ce627e90-57d6-4ed4-a789-1f3dd467ae7d",
+                    "deptName": "上海分公司",
+                    "email": null,
+                    "iconCls": null,
+                    "leader": "jack",
+                    "orderNum": 2,
+                    "parentId": "0",
+                    "phone": null,
+                    "status": "0",
+                    "updateTime": "2022-05-24 23:56:21"
+                }
+            ],
+            "code": null,
+            "createTime": "2016-11-28 10:34:54",
+            "deptId": "0",
+            "deptName": "总部",
+            "email": null,
+            "iconCls": "ext-icon-bricks",
+            "leader": null,
+            "orderNum": 100,
+            "parentId": "",
+            "phone": null,
+            "status": "0",
+            "updateTime": "2016-11-28 10:35:12"
+        },
+        {
+            "address": null,
+            "children": [],
+            "code": null,
+            "createTime": "2022-05-22 09:59:33",
+            "deptId": "5477d9a9-e41e-485f-bb08-697e8facef88",
+            "deptName": "南京分公司",
+            "email": "ss@ada.com",
+            "iconCls": null,
+            "leader": "dd",
+            "orderNum": 1,
+            "parentId": "0",
+            "phone": "18905189016",
+            "status": "0",
+            "updateTime": "2023-05-16 19:52:10"
+        },
+        {
+            "address": null,
+            "children": [],
+            "code": null,
+            "createTime": "2022-05-24 23:54:10",
+            "deptId": "ce627e90-57d6-4ed4-a789-1f3dd467ae7d",
+            "deptName": "上海分公司",
+            "email": null,
+            "iconCls": null,
+            "leader": "jack",
+            "orderNum": 2,
+            "parentId": "0",
+            "phone": null,
+            "status": "0",
+            "updateTime": "2022-05-24 23:56:21"
+        }
+    ],
+    "msg": "操作成功"
+}

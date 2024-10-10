@@ -1,0 +1,13 @@
+- baseInfo:
+    api_name: 获取用户列表信息
+    method: get
+    url: /base/system/user/list
+  caseInfo:
+    - case_name: 获取用户列表信息成功
+      params: 
+        pageNum: 1
+        pageSize: 10
+      validata: 
+        - code: 200
+        - contain: {'msg':'查询成功'}
+        - eq: {'code':200}

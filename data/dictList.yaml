@@ -1,0 +1,13 @@
+- baseInfo:
+    api_name: 获取字典列表
+    method: get
+    url: /base/system/dict/type/list
+  caseInfo:
+    - case_name: 获取字典列表成功
+      params:
+        pageNum: 1
+        pageSize: 10
+      validata: 
+        - code: 200
+        - contain: {'msg':'操作成功'}
+        - eq: {'code':200}

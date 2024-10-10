@@ -1,0 +1,13 @@
+[32mINFO    [0m utils.HandleLogs:conftest.py:24 ==========接口测试开始==========
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:61 接口名称：获取路由信息
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:62 接口地址：http://localhost/base/getRouters
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:63 请求方法：GET
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:64 请求头：None
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:65 请求cookies：None
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:66 用例名称：获取路由信息成功
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:77 没有请求参数
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:31 状态码断言成功：接口实际返回状态码【200】 == 预期结果【200】
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:60 包含断言成功，预期结果【操作成功】存在于实际返回结果【操作成功】中
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:89 相等断言成功，实际响应结果【{'code': 200}】== 预期结果【{'code': 200}】
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:187 测试成功
+[32mINFO    [0m utils.HandleLogs:conftest.py:26 ==========接口测试结束==========

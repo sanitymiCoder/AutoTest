@@ -1,0 +1,10 @@
+- baseInfo:
+    api_name: 获取机构列表
+    method: get
+    url: /base/system/dept/list
+  caseInfo:
+    - case_name: 获取机构列表成功
+      validata: 
+        - code: 200
+        - contain: {'msg':'操作成功'}
+        - eq: {'code':200}

@@ -1,0 +1,122 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "alwaysShow": true,
+            "children": [
+                {
+                    "component": "system/config/index",
+                    "hidden": false,
+                    "meta": {
+                        "icon": "edit",
+                        "link": "",
+                        "noCache": false,
+                        "title": "参数设置"
+                    },
+                    "name": "Config",
+                    "path": "config"
+                },
+                {
+                    "component": "system/dict/index",
+                    "hidden": false,
+                    "meta": {
+                        "icon": "dict",
+                        "link": "",
+                        "noCache": false,
+                        "title": "字典管理"
+                    },
+                    "name": "Dict",
+                    "path": "dict"
+                },
+                {
+                    "component": "system/dept/index",
+                    "hidden": false,
+                    "meta": {
+                        "icon": "tree",
+                        "link": "",
+                        "noCache": false,
+                        "title": "机构管理"
+                    },
+                    "name": "Dept",
+                    "path": "dept"
+                },
+                {
+                    "component": "system/role/index",
+                    "hidden": false,
+                    "meta": {
+                        "icon": "peoples",
+                        "link": "",
+                        "noCache": false,
+                        "title": "角色管理"
+                    },
+                    "name": "Role",
+                    "path": "role"
+                },
+                {
+                    "component": "system/user/index",
+                    "hidden": false,
+                    "meta": {
+                        "icon": "user",
+                        "link": "",
+                        "noCache": false,
+                        "title": "用户管理"
+                    },
+                    "name": "User",
+                    "path": "user"
+                },
+                {
+                    "component": "system/menu/index",
+                    "hidden": false,
+                    "meta": {
+                        "icon": "tree-table",
+                        "link": "",
+                        "noCache": false,
+                        "title": "资源管理"
+                    },
+                    "name": "Menu",
+                    "path": "menu"
+                }
+            ],
+            "component": "Layout",
+            "hidden": false,
+            "meta": {
+                "icon": "system",
+                "link": "",
+                "noCache": false,
+                "title": "系统管理"
+            },
+            "name": "/system",
+            "path": "/system",
+            "redirect": "noRedirect"
+        },
+        {
+            "alwaysShow": true,
+            "children": [
+                {
+                    "component": "monitor/logininfor/index",
+                    "hidden": false,
+                    "meta": {
+                        "icon": "ext-icon-chart_line",
+                        "link": "",
+                        "noCache": false,
+                        "title": "登录历史"
+                    },
+                    "name": "Logininfor",
+                    "path": "logininfor"
+                }
+            ],
+            "component": "Layout",
+            "hidden": false,
+            "meta": {
+                "icon": "monitor",
+                "link": "",
+                "noCache": false,
+                "title": "系统监控"
+            },
+            "name": "/system/log",
+            "path": "/system/log",
+            "redirect": "noRedirect"
+        }
+    ],
+    "msg": "操作成功"
+}

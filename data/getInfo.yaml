@@ -1,0 +1,12 @@
+- baseInfo:
+    api_name: 获取用户信息
+    method: get
+    url: /base/getInfo
+  caseInfo:
+    - case_name: 获取用户信息成功
+      validata: 
+        - code: 200
+        - contain: {'msg':'登录成功~'}
+        - eq: {'code':200}
+      extract: 
+          user: $.user

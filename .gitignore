@@ -1,6 +1,7 @@
 /env/
-/temp/
 /report/
+/logs/
 /.idea
 /.pytest_cache
 /.git
+/*__pycache__

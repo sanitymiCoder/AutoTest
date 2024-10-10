@@ -1,0 +1,22 @@
+<environment>
+    <parameter>
+        <key>system</key>
+        <value>windows 10</value>
+    </parameter>
+    <parameter>
+        <key>python version</key>
+        <value>python3.10.2</value>
+    </parameter>
+    <parameter>
+        <key>alllure version</key>
+        <value>3.18.0</value>
+    </parameter>
+    <parameter>
+        <key>项目名</key>
+        <value>XX自动化测试</value>
+    </parameter>
+    <parameter>
+        <key>作者</key>
+        <value>XXX</value>
+    </parameter>
+</environment>

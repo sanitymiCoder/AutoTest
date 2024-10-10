@@ -1,0 +1,138 @@
+{
+    "code": 200,
+    "msg": "查询成功",
+    "rows": [
+        {
+            "age": 30,
+            "createTime": "2015-08-25 10:34:54",
+            "dept": {
+                "address": null,
+                "children": [
+                    {
+                        "address": null,
+                        "children": [],
+                        "code": null,
+                        "createTime": "2022-05-22 09:59:33",
+                        "deptId": "5477d9a9-e41e-485f-bb08-697e8facef88",
+                        "deptName": "南京分公司",
+                        "email": "ss@ada.com",
+                        "iconCls": null,
+                        "leader": "dd",
+                        "orderNum": 1,
+                        "parentId": "0",
+                        "phone": "18905189016",
+                        "status": "0",
+                        "updateTime": "2023-05-16 19:52:10"
+                    },
+                    {
+                        "address": null,
+                        "children": [],
+                        "code": null,
+                        "createTime": "2022-05-24 23:54:10",
+                        "deptId": "ce627e90-57d6-4ed4-a789-1f3dd467ae7d",
+                        "deptName": "上海分公司",
+                        "email": null,
+                        "iconCls": null,
+                        "leader": "jack",
+                        "orderNum": 2,
+                        "parentId": "0",
+                        "phone": null,
+                        "status": "0",
+                        "updateTime": "2022-05-24 23:56:21"
+                    }
+                ],
+                "code": null,
+                "createTime": "2016-11-28 10:34:54",
+                "deptId": "0",
+                "deptName": "总部",
+                "email": null,
+                "iconCls": "ext-icon-bricks",
+                "leader": null,
+                "orderNum": 100,
+                "parentId": "",
+                "phone": null,
+                "status": "0",
+                "updateTime": "2016-11-28 10:35:12"
+            },
+            "deptId": "0",
+            "email": "test@test.com",
+            "nickName": "admin",
+            "phonenumber": "18988888888",
+            "photo": "",
+            "roles": [
+                {
+                    "createTime": "2015-08-25 10:34:53",
+                    "dataScope": "1",
+                    "iconCls": null,
+                    "remark": "拥有系统所有权限",
+                    "roleId": "0",
+                    "roleKey": "superadmin",
+                    "roleName": "超管",
+                    "roleSort": 0,
+                    "status": "0",
+                    "updateTime": "2022-06-10 00:27:23"
+                },
+                {
+                    "createTime": "2016-11-28 14:24:00",
+                    "dataScope": "1",
+                    "iconCls": null,
+                    "remark": null,
+                    "roleId": "19f00d46-8f1b-45b5-b7b7-6197d7b8cb33",
+                    "roleKey": "admin",
+                    "roleName": "管理员",
+                    "roleSort": 100,
+                    "status": "0",
+                    "updateTime": "2022-06-10 00:27:41"
+                },
+                {
+                    "createTime": "2022-05-29 13:29:38",
+                    "dataScope": "2",
+                    "iconCls": null,
+                    "remark": null,
+                    "roleId": "f4e1b151-a171-4705-9154-503a046cb72a",
+                    "roleKey": "readonly",
+                    "roleName": "只读用户",
+                    "roleSort": 1,
+                    "status": "0",
+                    "updateTime": "2022-06-10 00:13:55"
+                }
+            ],
+            "sex": "1",
+            "status": "0",
+            "updateTime": "2022-06-08 11:04:52",
+            "userId": "0",
+            "userName": "admin"
+        },
+        {
+            "age": null,
+            "createTime": "2022-05-29 09:28:57",
+            "dept": {
+                "address": null,
+                "children": [],
+                "code": null,
+                "createTime": "2022-05-22 09:59:33",
+                "deptId": "5477d9a9-e41e-485f-bb08-697e8facef88",
+                "deptName": "南京分公司",
+                "email": "ss@ada.com",
+                "iconCls": null,
+                "leader": "dd",
+                "orderNum": 1,
+                "parentId": "0",
+                "phone": "18905189016",
+                "status": "0",
+                "updateTime": "2023-05-16 19:52:10"
+            },
+            "deptId": "5477d9a9-e41e-485f-bb08-697e8facef88",
+            "email": "test@test.com",
+            "nickName": "test",
+            "phonenumber": "18988888882",
+            "photo": null,
+            "sex": "0",
+            "status": "0",
+            "updateTime": "2024-10-10 18:44:19",
+            "userId": "0f21b40c-5323-46e5-9200-0364eab3481e",
+            "userName": "test"
+        }
+    ],
+    "total": 2
+}

@@ -1,0 +1,16 @@
+- baseInfo:
+    api_name: 文件上传
+    method: post
+    url: /base/system/user/profile/avatar
+  caseInfo:
+    - case_name: 文件上传成功
+      files: 
+        files: ./data/dictList.yaml
+      validata: 
+        - code: 200
+        - ne: {'msg':'登录成功'}
+
+
+  
+  
+  

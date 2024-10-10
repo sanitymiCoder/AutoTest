@@ -1,0 +1,117 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "rows": [
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 1,
+            "dictName": "用户性别",
+            "dictType": "sys_user_sex",
+            "remark": "用户性别列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 2,
+            "dictName": "菜单状态",
+            "dictType": "sys_show_hide",
+            "remark": "菜单状态列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 3,
+            "dictName": "系统开关",
+            "dictType": "sys_normal_disable",
+            "remark": "系统开关列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 4,
+            "dictName": "任务状态",
+            "dictType": "sys_job_status",
+            "remark": "任务状态列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 5,
+            "dictName": "任务分组",
+            "dictType": "sys_job_group",
+            "remark": "任务分组列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 6,
+            "dictName": "系统是否",
+            "dictType": "sys_yes_no",
+            "remark": "系统是否列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 7,
+            "dictName": "通知类型",
+            "dictType": "sys_notice_type",
+            "remark": "通知类型列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 8,
+            "dictName": "通知状态",
+            "dictType": "sys_notice_status",
+            "remark": "通知状态列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 9,
+            "dictName": "操作类型",
+            "dictType": "sys_oper_type",
+            "remark": "操作类型列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        },
+        {
+            "createBy": "admin",
+            "createTime": "2022-05-14 14:04:20",
+            "dictId": 10,
+            "dictName": "系统状态",
+            "dictType": "sys_common_status",
+            "remark": "登录状态列表",
+            "status": "0",
+            "updateBy": "",
+            "updateTime": null
+        }
+    ],
+    "total": 11
+}
