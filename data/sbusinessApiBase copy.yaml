@@ -1,0 +1,30 @@
+#接口用例模板简介
+- baseInfo:  #接口接触信息
+    api_name: 登录接口  #接口名称
+    method: post  #接口请求方法
+    url: /base/login  #接口URL
+  caseInfo:   #接口测试用例
+    - case_name: 登录成功  #用例名称
+      json: {"username": "admin", "password": '${get_password()}'}  #请求参数，类型json，data，params
+      validata:   #断言的预期结果
+        - code: 200
+        - contain: {'msg':'登录成功~'}
+        - eq: {'msg':'登录成功~'}
+        - ne: {'msg':'登录成功'}
+        #- db: select * from user where username='admin'
+      extract:   #需要提取的接口返回参数,单个参数
+          token: $.token   #支持json和正则表达式
+      extract_list:  #需要提取的接口返回参数，列表形式
+          users: $.data[*].username    #支持json和正则表达式
+- baseInfo:
+    api_name: 个人中心
+    method: get
+    url: /base/system/user/profile
+  caseInfo:
+    - case_name: 获取个人中心信息
+      validata: 
+        - code: 200
+        - contain: {'msg':'操作成功'}
+        - eq: {'code':200}
+
+
