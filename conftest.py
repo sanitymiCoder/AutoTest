@@ -5,7 +5,8 @@ from datetime import timedelta
 from utils.SetFilePath import FILE_PATH
 from utils.YamlUtil import YamlUtil
 from utils.HandleLogs import logs
-
+from utils.DingRebot import send_msg
+from utils.ConfigParseUtil import ConfigParseUtil
 
 # @pytest.fixture(scope="function")
 # def connet_db():
@@ -60,4 +61,8 @@ def pytest_terminal_summary(terminalreporter,exitstatus,config):
     执行总时长：{format_time}({duration_time}s)
     """
     
-    print(summary)
+    is_msg = ConfigParseUtil().get_dingding_value('is_msg')
+    if is_msg == 'True':
+        res = send_msg(summary)
+        logs.info(res)
+    logs.info(summary)

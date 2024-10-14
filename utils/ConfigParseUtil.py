@@ -25,3 +25,9 @@ class ConfigParseUtil():
             return self.get_value('MYSQL',option)
         except Exception as e:
             print(f'读取配置文件出现异常，原因:{e}')
+            
+    def get_dingding_value(self,option):
+        try:
+            return self.get_value('DINGDING',option)
+        except Exception as e:
+            print(f'读取配置文件出现异常，原因:{e}')

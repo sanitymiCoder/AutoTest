@@ -1,0 +1,14 @@
+[32mINFO    [0m utils.HandleLogs:conftest.py:25 ==========接口测试开始==========
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:61 接口名称：登录接口
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:62 接口地址：http://localhost/base/login
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:63 请求方法：POST
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:64 请求头：None
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:65 请求cookies：None
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:66 用例名称：登录成功
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:74 参数类型：json
+[32mINFO    [0m utils.HandleLogs:RequestsUtil.py:75 请求参数：{"username": "admin", "password": "123456"}
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:31 状态码断言成功：接口实际返回状态码【200】 == 预期结果【200】
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:60 包含断言成功，预期结果【登录成功~】存在于实际返回结果【登录成功~】中
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:89 相等断言成功，实际响应结果【{'code': 200}】== 预期结果【{'code': 200}】
+[32mINFO    [0m utils.HandleLogs:AssertUtil.py:187 测试成功
+[32mINFO    [0m utils.HandleLogs:conftest.py:27 ==========接口测试结束==========
